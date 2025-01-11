@@ -1,0 +1,221 @@
+*{
+    font-family:Fira Sans;
+    
+}
+
+
+/* banner style */
+.banner{
+    font-family: Fira Sans;
+    background-color: #C6E4D6;
+    padding: 20px;
+    margin: 80px 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 24px;
+    /* text-align: center; */
+} 
+
+div h3, div p{
+    line-height: ;
+}
+.banner-containt{
+    line-height: ;
+    padding: 50px;
+}
+.title{
+    font-size: 24px;
+    font-weight: medium;
+    color: rgba(14, 14, 14, 0.5);
+    width: 610px;
+    height: 29px;
+    margin-bottom: 16px;
+}
+.subtitle{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    line: height 201px;
+    width: 610px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    /* line-height: 201px; */
+}
+.btn-primary{
+    color:rgba(255, 255, 255, 1);
+    background-color:rgba(0, 106, 80, 1);
+    padding: 18px 35px;
+    font: size 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+.banner-img{
+    padding: 80px;
+    width: 474px;
+    height: 400px;
+    opacity: 100%;
+    
+}
+.box-title{
+    margin: 20px 70px;
+    font-size: 40px;
+    width: bold;
+    margin-bottom: 32px;
+   
+}
+
+.box-item{
+    display: flex;
+    
+    gap: 24px;
+    margin: 20px 70px;
+   
+}
+ 
+.box{
+    padding: 24px;
+    margin-right: 20px;
+    box-shadow: 0px 6px 10px 0px rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+}
+.box-subtitle{
+    width: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.box-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.area{
+    margin: 80px 70px;
+}
+
+/* section2 style */
+.section{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    width: bold;
+}
+.section-description{
+    font-size: 16;
+    color: rgba(14, 14, 14, 0.7);
+}
+.color-box{
+    display: flex;
+    gap: 24px;
+    
+}
+.box1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border-radius: 10px;
+}
+.box2{
+    background-color:rgba(198, 228, 214, 1) ;
+    padding: 32px;
+    border-radius: 10px;
+}
+.box3{
+    background-color:rgba(247, 235, 207, 1) ;
+    padding: 32px;
+    border-radius: 10px;
+}
+.color-title{
+    font-size: 20px;
+    width: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.color-subtitle{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* second button style */
+.btn-blue{
+   background-color: rgba(84, 144, 245, 1);
+   font-size: 16px;
+   border-radius: 8px;
+   color: rgba(255, 255, 255, 1);
+   border: none;
+   padding: 10px 20px;
+}
+.btn-green{
+    background-color:rgba(9, 161, 92, 1) ;
+    font-size: 16px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 10px 20px;
+}
+.btn-rad{
+    padding: 10px 20px;
+    background-color:rgba(255, 194, 57, 1) ;
+    font-size: 16px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+/* section3 styles */
+.section3{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 80px 70px;
+    background-image:url(../B11A1--assignment-1/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:20px 20px;
+    background-color:rgb(243, 234, 234);
+}
+.title-lorem{
+    padding-top:28px;
+    margin-top:0px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.dr{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom:0;
+}
+
+/* section4-subtitle */
+.section4-title{
+    font-size:40px ;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.section5{
+    margin: 80px 70px;
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(198, 228, 214, 1);
+    border: 2px solid black;
+    padding: 20px;
+    border: none;
+   
+   
+}
+.section5-containar{
+    padding: 15px;
+    /* border: 5px solid black; */
+    background-color:rgba(255, 255, 255, 1);
+    
+}
+.optional-table{
+    display: flex;
+    justify-content: space-between;
+}
+.table-row{
+   
+   width: 1650px;
+   border: 1px solid black;
+   padding: 30px;
+   margin-top: 0;
+}
+.option{
+    padding: 0;
+}
