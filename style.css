@@ -5,15 +5,19 @@
 
 
 /* banner style */
+.header{
+    padding: 0px 80px 80px 80px;
+}
 .banner{
     font-family: Fira Sans;
     background-color: #C6E4D6;
     padding: 20px;
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     row-gap: 24px;
+    align-items: center
     /* text-align: center; */
 } 
 
@@ -59,7 +63,7 @@ div h3, div p{
     
 }
 .box-title{
-    margin: 20px 70px;
+    /* margin: 20px 70px; */
     font-size: 40px;
     width: bold;
     margin-bottom: 32px;
@@ -70,7 +74,7 @@ div h3, div p{
     display: flex;
     
     gap: 24px;
-    margin: 20px 70px;
+    /* margin: 20px 70px; */
    
 }
  
@@ -90,7 +94,7 @@ div h3, div p{
     color: rgba(14, 14, 14, 0.7);
 }
 .area{
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
 }
 
 /* section2 style */
@@ -162,11 +166,12 @@ div h3, div p{
 .section3{
     padding: 20px;
     border-radius: 10px;
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
     background-image:url(../B11A1--assignment-1/assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position:20px 20px;
     background-color:rgb(243, 234, 234);
+    margin-top: 50px;
 }
 .title-lorem{
     padding-top:28px;
@@ -187,7 +192,7 @@ div h3, div p{
     color: rgba(14, 14, 14, 1);
 }
 .section5{
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
 }
 .section-head{
     display: flex;
@@ -220,19 +225,13 @@ div h3, div p{
     padding: 0;
 }
 
-
-
-
-
-
-
-
+/* news section for next round */
 
 
 
 
 .section-your-option{
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
  
 }
 .option-header{
@@ -262,14 +261,23 @@ div h3, div p{
     margin-top: 0;
 }
 .news{
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
+    margin-top: 50px;
+}
+.btn-read{
+    background-color: #006A50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    color:#FFFFFF;
+    border: none;
 }
 .new-card{
     padding: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: wheat;
+    background-color:rgb(243, 233, 233);
     border-radius: 24px;
     margin-bottom: 20px;
 }
@@ -286,7 +294,7 @@ div h3, div p{
     flex-direction: row-reverse;
 }
 .donate{
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
 }
 .donate .donate-heading{
     text-align: center;
@@ -295,7 +303,7 @@ div h3, div p{
     padding: 30px 70px;
     border-radius: 16px;
     border: none;
-    background-color: blue;
+    background-color: #C6E4D6;
 }
 .donate-btn{
     display: flex;
@@ -308,28 +316,33 @@ div h3, div p{
     display: flex;
     justify-content: center;
 }
+/* .btn-read{
+    padding:10px 20px;
+} */
 .donate-done-btn button{
-    padding: 5px 10px;
-    background-color: green;
+    padding: 5px 20px;
+    background-color:#006A50;
     color: white;
     border-radius: 5px;
 }
 .donate input{
-    width: 100%;
-    margin: 20px 0px;
+    width: 80%;
+    margin: 20px 250px 20px 120px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 25px 0px;
     border: none;
-    background-color: rgb(89, 170, 170);
-    border-radius: 5px;
+    background-color: rgb(227, 248, 248);
+    border-radius: 10px;
     outline: none;
+    
 }
 .subscribe{
     background-color: #C6E4D6;
-    margin: 80px 70px;
+    /* margin: 80px 70px; */
     text-align: center;
     padding: 50px 0px;
     border-radius: 16px;
+    margin-top: 50px;
 }
 .subscribe form .email-input{
     padding: 10px 60px;
@@ -345,12 +358,14 @@ div h3, div p{
     outline: none;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
+    color: white;
 }
 .subscribe form{
     display: flex;
     gap: 0px;
     justify-content: center;
     align-items: center;
+    
 }
 .footer{
     background-color: green;
